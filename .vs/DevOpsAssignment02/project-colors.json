@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c3e8fbdc-0dbe-4246-b293-03d5407fdb71": {
+      "ProjectGuid": "c3e8fbdc-0dbe-4246-b293-03d5407fdb71",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 0
+    },
+    "2274b3d2-af96-48f1-bf30-4ba9ebfc9eb1": {
+      "ProjectGuid": "2274b3d2-af96-48f1-bf30-4ba9ebfc9eb1",
+      "DisplayName": "ConsoleCalculator",
+      "ColorIndex": 1
+    },
+    "89b9121b-58df-4ae9-93d8-f97fe7713443": {
+      "ProjectGuid": "89b9121b-58df-4ae9-93d8-f97fe7713443",
+      "DisplayName": "CalculatorLibrary",
+      "ColorIndex": 2
+    },
+    "a67fb5b7-77db-48f8-bbb1-e3f96ee4816a": {
+      "ProjectGuid": "a67fb5b7-77db-48f8-bbb1-e3f96ee4816a",
+      "DisplayName": "ConsoleCalculator.UnitTests",
+      "ColorIndex": 3
+    },
+    "e8061741-693b-4cbb-a825-51d31080c050": {
+      "ProjectGuid": "e8061741-693b-4cbb-a825-51d31080c050",
+      "DisplayName": "ConsoleCalculator.UnitTests",
+      "ColorIndex": 4
+    },
+    "268c200b-1678-476f-894a-5484f7ea98fa": {
+      "ProjectGuid": "268c200b-1678-476f-894a-5484f7ea98fa",
+      "DisplayName": "ConsoleCalculator.UnitTest",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
