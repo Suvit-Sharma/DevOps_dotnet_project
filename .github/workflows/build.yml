@@ -43,7 +43,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         shell: powershell
         run: |
-          dotnet tool install --global dotnet-sonarscanner 
+          dotnet tool install --global dotnet-sonarscanner
+          dotnet tool install --global coverlet.console
           dotnet sonarscanner begin /k:"Suvit-Sharma_DevOps_dotnet_project" /o:"suvit-sharma" /d:sonar.token="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.opencover.reportsPaths=coverage.xml 
           dotnet build DevOpsAssignment02.sln
           coverlet ".\bin\Debug\net7.0\ConsoleCalculator.UnitTest\ConsoleCalculator.UnitTest.dll" --target "dotnet" --target args "test --no-build" -f=opencover -o="coverage.xml" 
